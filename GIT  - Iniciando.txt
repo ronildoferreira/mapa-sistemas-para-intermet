@@ -1,0 +1,25 @@
+GIT COMANDOS
+
+git config --global user.name "Ronildo Ferreira"
+git config --global user.email "ronildo.ufpi@gmail.com"
+
+git config user.name
+git config user.email
+
+git init
+git add .
+git commit -m "teste"
+
+Criar repositorio no github depois clonas
+git remote add origin https://github.com/ronildoferreira/mapa-sistemas-para-internet.git
+
+
+ordem de comites
+Para conseguir comitar os arquivos tem que ter tido alteração
+
+//adicionar
+git add .
+//comitar
+git commit -m "meu teste" 
+//publicar
+git push
